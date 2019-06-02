@@ -16,14 +16,23 @@
 }
 .orignumber  {
     float: left;
+    margin-left: 3%;
     width: 200px;
     height: 180px;
     border-style: groove;
+    color: white;
 }
 .changednumber  {
     float: left;
+    margin-left: 3%;
     width: 200px;
     height: 180px;
     border-style: groove;
+    color: white;
 }
-
+body            {
+    background-color: black;
+}
+.btn    {
+    color: white;
+}

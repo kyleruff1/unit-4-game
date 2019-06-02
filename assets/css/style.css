@@ -1,0 +1,29 @@
+.cry1   {
+    float: left;
+
+}
+.cry2   {
+    float: left;
+
+}
+.cry3   {
+    float: left;
+
+}
+.cry4   {
+    float: left;
+
+}
+.orignumber  {
+    float: left;
+    width: 200px;
+    height: 180px;
+    border-style: groove;
+}
+.changednumber  {
+    float: left;
+    width: 200px;
+    height: 180px;
+    border-style: groove;
+}
+

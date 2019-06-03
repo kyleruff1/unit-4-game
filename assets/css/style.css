@@ -17,16 +17,16 @@
 .orignumber  {
     float: left;
     margin-left: 3%;
-    width: 200px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     border-style: groove;
     color: white;
 }
 .changednumber  {
     float: left;
     margin-left: 3%;
-    width: 200px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     border-style: groove;
     color: white;
 }
@@ -36,3 +36,30 @@ body            {
 .btn    {
     color: white;
 }
+.allcry {
+    align-content: center;
+}
+
+.wins  {
+    float: left;
+    margin-left: 3%;
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+    color: white;
+}
+.losses  {
+    float: left;
+    margin-left: 3%;
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+    color: white;
+}
+.start  {
+    float: left;
+    margin-left: 3%;
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+    color: white;

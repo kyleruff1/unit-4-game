@@ -21,24 +21,45 @@
       </div>
 
       <div class="allcry">  <div class="cry1">   
-            <input type="button" class="btn" value="hit me" onclick="cry1()" />  <img src="/assets/images/cry1.JPG" alt="cry2">     
+            <button id="addToRand" onclick="document.getElementById('scorecounter').innerHTML = addRandToScore(0,10)">hit me</button>
+          <img src="/assets/images/cry1.JPG" alt="cry2">     
         </div>
-      <div class="cry2"><input type="button" class="btn" value="hit me" onclick="cry2()" /> 
+      <div class="cry2"><button id="addToRand" onclick="document.getElementById('scorecounter').innerHTML = addRandToScore(0,10)">hit me</button>
             <img src="/assets/images/cry2.JPG" alt="cry2">   
       </div>
-      <div class="cry3"><input type="button" class="btn" value="hit me" onclick="cry3()" /> 
+      <div class="cry3"><button id="addToRand" onclick="document.getElementById('scorecounter').innerHTML = addRandToScore(0,10)">hit me</button>
             <img src="/assets/images/cry3.JPG" alt="cry3">   
       </div>
-      <div class="cry4"> <input type="button" class="btn" value="hit me" onclick="cry4()" /> 
+      <div class="cry4">  <button id="addToRand" onclick="document.getElementById('scorecounter').innerHTML = addRandToScore(0,10)">hit me</button>
+        
             <img src="/assets/images/cry4.JPG" alt="cry4">       
       </div>
-      <div class="orignumber"><h1>66</h1></div>
-      <div class="changednumber"><h1>99</h1></div>
+      <div class="orignumber">
+            <button id="start1" onclick="document.getElementById('start').innerHTML = generateStart(0,10)">start</button>
+          
+          
+          <div id="start"><h1>66</h1>
+    </div> 
+</div>
+      <div class="changednumber">Score<br><h1><div id="scorecounter"><h1>66</h1>
+    </div>
+</div>
+      <div class="wins">
+        wins<br> <div class="winscounter">_ _ _ _
+
+        </div>
+      </div>
+      <div class="losses">losses<br><div class="losscounter">>_ _ _ 
+          </di>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+
+
+</body>
 </html>

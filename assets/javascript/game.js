@@ -122,7 +122,7 @@ $(document).ready(function() {
 			$("#wins").html(wins);
 
 			setTimeout(function() {gameReset("chyeahhh boiii, thats a win!!")}, 200);
-		}	break;
+		}	
             // if over, alert
 		else if (totalScore > randNumber){
         	losses++;

@@ -54,7 +54,7 @@
 }
 body            {
     background-color: black;
-    background-image: url("/assets/images/dwarves.JPG");
+    background-image: url("../assets/images/dwarves.JPG");
     background-size: 100%;
 }
 .btn    {
@@ -94,7 +94,7 @@ body            {
     font-style: italic;
     text-decoration: underline;
     text-align: center;
-    background-image: url("/assets/images/scrooge.JPG");
+    background-image: url("../assets/images/scrooge.JPG");
     background-size: 100%;
     color: white;
 }

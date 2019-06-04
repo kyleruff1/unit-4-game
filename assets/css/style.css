@@ -1,17 +1,25 @@
-.cry1   {
-    float: left;
+#cry1   {
+
+    width: 210px;
+    height: 210px;
 
 }
-.cry2   {
-    float: left;
+#cry2   {
+   
+    width: 210px;
+    height: 210px;
 
 }
-.cry3   {
-    float: left;
+#cry3   {
+ 
+    width: 210px;
+    height: 210px;
 
 }
-.cry4   {
-    float: left;
+#cry4   {
+ 
+    width: 210px;
+    height: 210px;
 
 }
 .target  {
@@ -19,8 +27,8 @@
     font-family: 'ZCOOL KuaiLe', cursive;
     float: left;
     margin-left: 3%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: groove;
     color: white;
 }
@@ -29,8 +37,8 @@
     font-family: 'ZCOOL KuaiLe', cursive;
     float: left;
     margin-left: 3%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: groove;
     color: white;
 }
@@ -39,13 +47,15 @@
     font-family: 'ZCOOL KuaiLe', cursive;
     float: left;
     margin-left: 3%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: groove;
     color: white;
 }
 body            {
     background-color: black;
+    background-image: url("/assets/images/dwarves.JPG");
+    background-size: 100%;
 }
 .btn    {
     color: white;
@@ -59,8 +69,8 @@ body            {
     font-family: 'ZCOOL KuaiLe', cursive;
     float: left;
     margin-left: 3%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: groove;
     color: white;
 }
@@ -69,8 +79,8 @@ body            {
     font-family: 'ZCOOL KuaiLe', cursive;
     float: left;
     margin-left: 3%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: groove;
     color: white;
 }
@@ -83,10 +93,15 @@ body            {
     font-family: 'ZCOOL KuaiLe', cursive;
     font-style: italic;
     text-decoration: underline;
+    text-align: center;
+    background-image: url(/assets/images/scrooge.JPG);
+    background-size: 100%;
+    color: white;
 }
 .bodycontainer  {
     margin-right: 15%;
-    margin-left: 15%;
+    margin-left: 25%;
     font-family: 'ZCOOL KuaiLe', cursive;
+
 
 }

@@ -105,3 +105,12 @@ body            {
 
 
 }
+#divicw {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    background-image: url("../images/scrooge.jpg");
+    background-size: 100%;
+    color: white;
+}

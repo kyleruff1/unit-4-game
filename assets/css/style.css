@@ -114,3 +114,18 @@ body            {
     background-size: 100%;
     color: white;
 }
+
+#widgetlogo {
+    background-image: url("../images/scrooge.jpg");
+}
+#chatpageheading {
+    background-image: url("../images/scrooge.jpg");
+
+}
+#headertypicallyrply {
+    background-image: url("../images/scrooge.jpg");
+}
+#oooMsg {
+
+    background-image: url("../images/scrooge.jpg");
+}
